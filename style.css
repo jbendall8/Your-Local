@@ -81,3 +81,45 @@ ul {
   font-size: 13px;
   color: #858585;
 }
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.business-card {
+  height: 142px;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 20px;
+  overflow: none;
+}
+
+.image {
+  height: 101px;
+}
+
+.business-name {
+  height: 41px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: ;
+}
+
+.offer {
+  font-size: 10px;
+  color: #ac66cc;
+}
+
+.rating {
+  font-size: 16px;
+  color: #ac66cc;
+}
