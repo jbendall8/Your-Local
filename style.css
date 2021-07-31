@@ -203,6 +203,8 @@ ul {
 .app-body {
   display: flex;
   flex-direction: column;
+  overflow-y: scroll;
+  height: 824px;
 }
 
 .bottom-nav {
