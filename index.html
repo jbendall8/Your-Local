@@ -1,82 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
 
-  <link rel="stylesheet" href="style.css">
-  <title>Your Local</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Your Local</title>
 </head>
-<body>
-  <div class="phone-container ln">
-    <section class="search">
-      <div class="s-bar">
-        <p>Search</p>
-        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
-      </div>
-      <div class="location">
-        <p>18 George Street, Surry Hills</p>
-      </div>
-    </section>
-    <section class="categories">
-      <div class="cat-card">
-        <p>Cafe</p>
-      </div>
-      <div class="cat-card">
-        <p>Restaurant</p>
-      </div>
-      <div class="cat-card">
-        <p>Hair Salon</p>
-      </div>
-      <div class="cat-card">
-        <p>Beauty</p>
-      </div>
-      <div class="cat-card">
-        <p>Florist</p>
-      </div>
-      <div class="cat-card">
-        <p>Health</p>
-      </div>
-    </section>
-    <section class="business flex-col">
-      <div class="business-card">
-        <div class="card-image"></div>
-        <div class="business-name flex">
-          <p class="name">Kyle's Cafe</p>
-          <p class="offer">Free Brownie for every coffee order</p>
-          <p class="rating">4.7</p>
-        </div>
-      <div class="business-card">
-        <div class="card-image"></div>
-        <div class="business-name flex">
-          <p class="name">Hair Artisery</p>
-          <p class="offer">20% off all haircuts</p>
-          <p class="rating">4.5</p>
-        </div>
-      </div>
-      <div class="business-card">
-        <div class="card-image"></div>
-        <div class="business-name flex">
-          <p class="name">Gelato World</p>
-          <p class="offer">New lychee flavour gelato</p>
-          <p class="rating">4.4</p>
-        </div>
-      </div>
 
-    </section>
-    <div class="bottom-nav ln">
-      <ul>
-        <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-        <li><a href="#"><i class="fa-solid fa-message"></i></a></li>
-        <li><a href="#"><i class="fa-solid fa-bell"></i></a></li>
-        <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
-      </ul>
-    </div>
-  </div>
+<body>
+    <div class="phone-container">
+        <div class="app-body">
+            <section class="search">
+                <div class="s-bar">
+                    <p>Search</p>
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="location">
+                    <p>18 George Street, Surry Hills</p>
+                    <i class="fas fa-location-arrow"></i>
+                </div>
+            </section>
+            <section class="categories">
+                <div class="cat-card">
+                  <div class="grid-center">
+                    <i class="fas fa-coffee fa-2x"></i>
+                    <p>Cafe</p>
+                  </div>
+                </div>
+                <div class="cat-card">
+                  <i class="fas fa-utensils fa-2x"></i>
+                    <p>Restaurant</p>
+                </div>
+                <div class="cat-card">
+                    <p>Hair Salon</p>
+                </div>
+                <div class="cat-card">
+                    <p>Beauty</p>
+                </div>
+                <div class="cat-card">
+                    <p>Florist</p>
+                </div>
+                <div class="cat-card">
+                    <p>Health</p>
+                </div>
+            </section>
+            <section class="business flex-col">
+                <div class="business-card-1">
+                    <div class="card-image"></div>
+                    <div class="business-name flex">
+                        <p class="name">Kyle's Cafe</p>
+                        <p class="offer">Free Brownie for every coffee order</p>
+                        <p class="rating">4.7</p>
+                    </div>
+                    <div class="business-card-2">
+                        <div class="card-image"></div>
+                        <div class="business-name flex">
+                            <p class="name">Hair Artisery</p>
+                            <p class="offer">20% off all haircuts</p>
+                            <p class="rating">4.5</p>
+                        </div>
+                    </div>
+                    <div class="business-card-3">
+                        <div class="card-image"></div>
+                        <div class="business-name flex">
+                            <p class="name">Gelato World</p>
+                            <p class="offer">New lychee flavour gelato</p>
+                            <p class="rating">4.4</p>
+                        </div>
+                    </div>
+
+            </section>
+
+            </div>
+
+            <div class="bottom-nav">
+                <ul>
+                    <li><a href="#"><i class="fas fa-home fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fas fa-comment-alt fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fas fa-bell fa-2x"></i></a></li>
+                    <li><a href="#"><i class="fas fa-user fa-2x"></i></a></li>
+                </ul>
+            </div>
+        </div>
 </body>
+
 </html>
