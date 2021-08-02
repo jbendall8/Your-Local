@@ -67,7 +67,13 @@ ul {
 }
 
 .location {
+  display: flex;
+  align-items: center;
   margin-top: 16px;
+}
+
+.location i {
+  margin-left: 10px;
 }
 
 .categories {
@@ -147,7 +153,7 @@ ul {
   border-radius: 20px;
   margin-top: 20px;
   overflow: none;
-  background: url('./assets/cafe.png');
+  background: url('./assets/dentistry.png');
   background-size: cover;
 }
 
@@ -158,7 +164,7 @@ ul {
   border-radius: 20px;
   margin-top: 20px;
   overflow: none;
-  background: url('./assets/cafe.png');
+  background: url('./assets/italian.png');
   background-size: cover;
 }
 
@@ -169,7 +175,27 @@ ul {
   border-radius: 20px;
   margin-top: 20px;
   overflow: none;
-  background: url('./assets/cafe.png');
+  background: url('./assets/tattoo.png');
+  background-size: cover;
+}
+.business-card-7 {
+  height: 142px;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 20px;
+  overflow: none;
+  background: url('./assets/flower-shop.png');
+  background-size: cover;
+}
+.business-card-8 {
+  height: 142px;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 20px;
+  overflow: none;
+  background: url('./assets/burgers.png');
   background-size: cover;
 }
 
@@ -205,6 +231,7 @@ ul {
   flex-direction: column;
   overflow-y: scroll;
   height: 824px;
+  animation: slideInFromBottom 1s ease-in;
 }
 
 .bottom-nav {
@@ -216,4 +243,197 @@ ul {
 .bottom-nav a {
   text-decoration: none;
   color: #c4c4c4;
+}
+
+/* Kyle's Cafe */
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 64px;
+}
+
+.navigation h5 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.business-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.image-container {
+  height: 145px;
+  width: 190px;
+  border-radius: 20px;
+  background: url(./assets/cafe.png);
+}
+
+.status {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #ac66cc;
+}
+
+.comments {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #3b14a7;
+  text-decoration: underline;
+}
+
+.selections {
+  padding: 0 56px;
+}
+
+.selections-heading {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+}
+.price-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coffee-types {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.prices {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.c-name {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.price {
+  margin-top: 30px;
+}
+
+.choice-card {
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.choices {
+  height: 492px;
+  width: 350px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 0 30px;
+}
+
+.drink-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 17px;
+}
+
+.size-heading {
+  font-size: 13px;
+  color: #c4c4c4;
+  margin-top: 11px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.sizes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+
+.sizes div {
+  margin-top: 15px;
+}
+
+.dot {
+  background-color: #c4c4c4;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.confirm-selections {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-order {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-primary {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  color: #3b14a7;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.add-order button {
+  margin-top: 15px;
+}
+
+.add-order p {
+  color: #4e4e4e;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
